@@ -125,15 +125,16 @@ h2{
     margin:3%;
     box-shadow: 10px 10px 30px rgb(39, 4, 4);
     /* box-shadow: 12px 12px 2px 1px rgba(105, 7, 24, 0.568); */
+    border-radius: 35px;
 }
 
 .box img{
     width:300px;
-    height: 150px;
+    height: 220px;
     position:relative;
     padding-left: 20px;
     padding-top: 20px;
-    border-radius: 25px;
+    border-radius: 38px;
 }
 
 .dish{
@@ -145,5 +146,47 @@ h2{
     border-radius: 7px;
     margin-left: 6%;
     margin-right: 6%;
+    margin-bottom: 10px;
     box-shadow: 0px 5px 2px 1px rgb(34, 31, 31);
+}
+
+.description{
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 6%;
+   
+}
+
+.more{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.feedback{
+    width: 80%;
+    height: 35vh;
+    background-color: blanchedalmond;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.feedback-box{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    margin:0  10% 0 10%;
+    line-height: 2px;
+    padding-top: 50px;
+}
+
+.footer{
+    margin-top:15vh;
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    color:whitesmoke;
 }
